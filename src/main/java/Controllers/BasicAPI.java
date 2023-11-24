@@ -1,12 +1,13 @@
-package com.example.gettingIntoTheWorldOfAPI.s;
+package Controllers;
 
+import Models.userDB;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
 
 @RestController
-public class API {
-    HashMap<Integer,userDB> userDB = new HashMap<>();
+public class BasicAPI {
+    HashMap<Integer, Models.userDB> userDB = new HashMap<>();
 
 
     @GetMapping("/addition")

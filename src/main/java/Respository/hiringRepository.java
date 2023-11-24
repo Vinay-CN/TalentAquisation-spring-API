@@ -1,10 +1,12 @@
-package com.example.gettingIntoTheWorldOfAPI.s;
+package Respository;
+
+import Models.TalentDB;
 
 import java.util.* ;
 import java.util.HashMap;
 
 @org.springframework.stereotype.Repository
-public class Repository {
+public class hiringRepository {
 
     HashMap<Integer, TalentDB> talentDB = new HashMap<>();
 

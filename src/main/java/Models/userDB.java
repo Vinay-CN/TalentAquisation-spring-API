@@ -1,4 +1,4 @@
-package com.example.gettingIntoTheWorldOfAPI.s;
+package Models;
 
 public class userDB {
     private String name ;

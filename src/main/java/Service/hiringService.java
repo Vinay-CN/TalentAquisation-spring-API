@@ -1,13 +1,15 @@
-package com.example.gettingIntoTheWorldOfAPI.s;
+package Service;
 import java.util.* ;
 
+import Respository.hiringRepository;
+import Models.TalentDB;
 import org.springframework.beans.factory.annotation.Autowired;
 
 @org.springframework.stereotype.Service
-public class Service {
+public class hiringService {
 
     @Autowired
-           private Repository repoObj ;
+           private hiringRepository repoObj ;
 
     public String addTalentToDB(TalentDB talent){
 
