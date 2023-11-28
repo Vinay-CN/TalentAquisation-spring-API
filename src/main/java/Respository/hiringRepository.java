@@ -12,7 +12,7 @@ public class hiringRepository {
 
     public String addTalentToDB(TalentDB talent){
         //get the talent id
-         int id = talent.getID();
+         int id = talent.getId();
         //add the talent to talentDB
          talentDB.put(id,talent);
          return "A new talent has been added to talentDB with "+id;

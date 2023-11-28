@@ -29,39 +29,75 @@ public class TalentDB {
     }
 
 
-
-    public String getResumeFile() {
-        return resumeFile;
+    public int getId() {
+        return id;
     }
 
-    public int getID(){
-        return this.id ;
+    public void setId(int id) {
+        this.id = id;
     }
+
     public String getName() {
         return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int getExperience() {
         return experience;
     }
 
+    public void setExperience(int experience) {
+        this.experience = experience;
+    }
+
     public String getTechStack() {
         return techStack;
+    }
+
+    public void setTechStack(String techStack) {
+        this.techStack = techStack;
     }
 
     public String getCurrCompany() {
         return currCompany;
     }
 
+    public void setCurrCompany(String currCompany) {
+        this.currCompany = currCompany;
+    }
+
     public int getCurrCTC() {
         return currCTC;
+    }
+
+    public void setCurrCTC(int currCTC) {
+        this.currCTC = currCTC;
     }
 
     public int getExpCTC() {
         return expCTC;
     }
 
+    public void setExpCTC(int expCTC) {
+        this.expCTC = expCTC;
+    }
+
     public String getLocation() {
         return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public String getResumeFile() {
+        return resumeFile;
+    }
+
+    public void setResumeFile(String resumeFile) {
+        this.resumeFile = resumeFile;
     }
 }
